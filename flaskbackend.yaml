@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flaskcrud
+  labels:
+    app: flaskdev
+spec:
+  containers:
+  - name: flaskdevcont
+    image:  chetandocker7777/cloud7_colorapp
+    ports:
+    - containerPort: 5000
+           
+    
+    
